@@ -1,3 +1,5 @@
+package LogicalStatement;
+
 import java.util.Scanner;
 
 public class LogicalStatement {
