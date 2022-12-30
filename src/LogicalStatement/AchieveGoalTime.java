@@ -2,7 +2,7 @@ package LogicalStatement;
 
 import java.util.Scanner;
 
-public class LogicalStatement {
+public class AchieveGoalTime {
     public static void main(String[] args) {
         //用while语句以及in输入方法，实现一个功能
         //获取用户希望得到的总存款数目goal，以及每年可以存入多少钱payment，以及钱款的年利率rate

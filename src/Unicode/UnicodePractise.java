@@ -1,5 +1,6 @@
 package Unicode;
 
+import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class UnicodePractise {
@@ -14,7 +15,7 @@ public class UnicodePractise {
         //将sentence的码点作为流返回
         IntStream stream = sentence.codePoints();
         int[] array = stream.toArray();
-        System.out.println(array);//[I@3b9a45b3 为什么数组可以打印这么个东西出来？
+        System.out.println(Arrays.toString(array));//[9200⏰, 26102时, 38047钟]
         //从码点数组的第1位开始 创建3个字符
         String newString1 = new String(array,0,3);
         System.out.println(newString1);//⏰时钟
